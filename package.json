@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hannahnmcdonald/TeamBuilder#readme",
   "dependencies": {
-    "inquirer": "^8.1.2"
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6"
   }
 }
