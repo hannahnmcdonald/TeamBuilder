@@ -46,7 +46,7 @@ THEN I exit the application, and the HTML is generated
 * [Technologies](#Technologies)
 * [License](#License)
 * [Contributing](#Contributing)
-* [Questions](#Questions?)
+* [Questions](#Questions)
 
 
 # Screenshot 📸
@@ -100,7 +100,7 @@ This repository is under the MIT License.
 * Push to your branch
 * Open a Pull request for review
 
-# Questions? ❔
+# Questions ❔
 
 Contact me at hannahcodes@protonmail.com 📫
 
