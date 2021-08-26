@@ -55,11 +55,16 @@ Example of generated HTML:
 
 ![Screenshot](./img/screenshot.png)
 
+Command line example:
+
+![Screenshot2](./img/screenshot2.png)
+
 # Video 🎥
 
 ![VideoWalkthrough](./img/gif.gif)
 
 ▶️ Watch the full length demo [here](https://drive.google.com/file/d/1Z_BsZqJxWcSjpuv3DhGPKrmyhQ5SCuEi/view?usp=sharing)
+
 
 # Installation 🛠
 
@@ -85,6 +90,8 @@ After this command is run, you will be given a serious of questions to which you
 * npm inquirer
 * npm fs
 * jest.js
+* Bootstrap
+
 
 # License 🧾
 

@@ -9,7 +9,7 @@ const generateTeam = (team) => {
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${manager.getId()}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
+            <li class="list-group-item"><a href="mailto:${manager.getEmail()}">${manager.getEmail()}><i class="fas fa-envelope-square"></i> Email: </li></a>
             <li class="list-group-item"><i class="far fa-building"></i> Office Number: ${manager.getOfficeNumber()}</li>
         </ul>
     </div>
@@ -23,8 +23,8 @@ const generateTeam = (team) => {
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${engineer.getId()}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
-            <li class="list-group-item"><i class="fab fa-github"></i> Github: ${engineer.getGithub()} <a href="www.github.com/${engineer.getGithub()}" class="card-link"></a></li>
+            <li class="list-group-item"><a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}><i class="fas fa-envelope-square"></i> Email: </li></a>
+            <li class="list-group-item"><a href="github.com/${engineer.getGithub()}" class="card-link" ><i class="fab fa-github"></i> Github: ${engineer.getGithub()} </li></a> 
         </ul>
     </div>
     `;
@@ -37,7 +37,7 @@ const generateTeam = (team) => {
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${intern.getId()}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+            <li class="list-group-item"><a href="mailto:${intern.getEmail()}">${intern.getEmail()}></<i class="fas fa-envelope-square"></i> Email: li></a>
             <li class="list-group-item"><i class="fas fa-graduation-cap"></i> School: ${intern.getSchool()}</li>
         </ul>
     </div>

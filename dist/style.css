@@ -57,8 +57,22 @@ h1{
     color: black;
 }
 
-.card:hover {
+a:hover {
     transition: transform 150ms;
     transform: scale(1.01);
     cursor: pointer;
+    color:blue;
+}
+
+a {
+    /* border-radius: 1rem; */
+    /* background-color: rgb(255,255,255,0.5); */
+}
+
+a:link{
+    color: black;
+}
+
+a:active {
+    color: black;
 }
