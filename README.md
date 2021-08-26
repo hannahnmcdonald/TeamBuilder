@@ -75,7 +75,7 @@ The application will be invoked by using the following command:
 ```
 node index.js
 ```
-After this command is run, you will be given a serious of questions to which you will answer and press enter. After all questions are answered, your README.md will be generated in the current directory.
+After this command is run, you will be given a serious of questions to which you will answer and press enter. After all questions are answered, your team will be generated as a HTML page in the current directory.
 
 
 # Technologies 💻
