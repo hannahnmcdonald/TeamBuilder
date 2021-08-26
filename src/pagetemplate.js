@@ -43,21 +43,15 @@ const generateTeam = (team) => {
     </div>
     `;
     };
-    // Joins array data into ONE string
 
     const htmlArr =[];
-
-    // TEST:
-    // const htmlArr = [generateManager(team[0]), 
-    // generateEngineer(team[1]), 
-    // generateIntern(team[2])];
 
     htmlArr
     .push(
         team
             .filter(employee => employee.getRole() === "Manager")
-            .map((manager) => generateManager(manager))
-            .join("")
+            .map(manager => generateManager(manager))
+            // .join("")
     );
 
     htmlArr
@@ -76,14 +70,16 @@ const generateTeam = (team) => {
             .join("")
     );
 
-    return htmlArr.join("");
+return htmlArr.join("");
+
 };
 
 module.exports = (team) => {
 
-    return`<!DOCTYPE html>
-<html lang="en">
-<head>
+    return`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,21 +97,19 @@ module.exports = (team) => {
     <link rel="stylesheet" href="https://use.typekit.net/jmb1xhf.css">
     <!-- CSS-->
     <link href="./style.css" rel="stylesheet" />
-</head>
-<body>
-    
-<section class="container" id="main">
-    <header class="container-fluid justify-content-center">
-        <h1 class="display-4">My Team  <i class="fas fa-users"></i></h1>
-    </header>
-    <div class="row justify-content-center">
+    </head>
+    <body>
+        
+    <section class="container" id="main">
+        <header class="container-fluid justify-content-center">
+            <h1 class="display-4">My Team  <i class="fas fa-users"></i></h1>
+        </header>
+        <div class="row justify-content-center">
+        ${generateTeam(team)}
+        </div>
+    </section>
 
-    ${generateTeam(team)}
-
-    </div>
-</section>
-
-</body>
-</html>
-`;
-}
+    </body>
+    </html>
+    `;
+};

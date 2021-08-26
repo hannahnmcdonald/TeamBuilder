@@ -11,7 +11,7 @@ h1{
     border-radius: 3rem;
     padding: 20px;
     margin: 20px;
-    font-family: korolev,sans-serif;
+    font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -19,8 +19,8 @@ h1{
 .row {
     display: flex;
     flex-wrap: wrap;
-    font-family: korolev,sans-serif;
-    font-weight: 300;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 35px;
 }
