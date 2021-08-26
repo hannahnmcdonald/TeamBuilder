@@ -60,9 +60,9 @@ Command line example:
 
 # Video 🎥
 
-![VideoWalkthrough](./img/gif.gif)
+![VideoWalkthrough]()
 
-▶️ Watch the full length demo [here](https://drive.google.com/file/d/1Z_BsZqJxWcSjpuv3DhGPKrmyhQ5SCuEi/view?usp=sharing)
+▶️ Watch the full length demo [here]()
 
 
 # Installation 🛠
