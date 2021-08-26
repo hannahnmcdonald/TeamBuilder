@@ -38,14 +38,14 @@ THEN I exit the application, and the HTML is generated
 
 
 # Table of Contents 🗂
-* [Screenshot](#Screenshot)
-* [Video](#Video)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Technologies](#Technologies)
-* [License](#License)
-* [Contributing](#Contributing)
-* [Questions](#Questions)
+[Screenshot](#Screenshot)
+[Video](#Video)
+[Installation](#Installation)
+[Usage](#Usage)
+[Technologies](#Technologies)
+[License](#License)
+[Contributing](#Contributing)
+[Questions](#Questions)
 
 
 # Screenshot 📸
