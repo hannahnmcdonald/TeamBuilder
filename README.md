@@ -53,11 +53,11 @@ THEN I exit the application, and the HTML is generated
 
 Example of generated HTML: 
 
-![Screenshot](./img/screenshot.png)
+![Screenshot](./img/screenshot1.png)
 
 Command line example:
 
-![Screenshot2](./img/screenshot.png)
+![Screenshot2](./img/screenshot2.png)
 
 # Video 🎥
 
