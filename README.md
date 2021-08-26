@@ -1,4 +1,4 @@
-# TeamBuilder
+# **TeamBuilder**
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Description
@@ -52,6 +52,7 @@ THEN I exit the application, and the HTML is generated
 # Screenshot 📸
 
 Example of generated HTML: 
+
 ![Screenshot](./img/screenshot.png)
 
 # Video 🎥
@@ -91,7 +92,7 @@ This repository is under the MIT License.
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Contributing 
+# Contributing 👩🏽‍💻
 
 * Fork the repo from Github
 * Clone the repo locally
@@ -99,7 +100,7 @@ This repository is under the MIT License.
 * Push to your branch
 * Open a Pull request for review
 
-# Questions?
+# Questions? ❔
 
 Contact me at hannahcodes@protonmail.com 📫
 
