@@ -38,9 +38,8 @@ THEN I exit the application, and the HTML is generated
 
 
 # Table of Contents 🗂
-
 * [Screenshot](#Screenshot)
-* [VideoWalkthrough](#Video)
+* [Video](#Video)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Technologies](#Technologies)
