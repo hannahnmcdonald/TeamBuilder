@@ -2,29 +2,31 @@
 const generateTeam = (team) => {
 // Generate Manager Card in HTML
     const generateManager = (manager) => {
-        return `<div class="card" style="width: 18rem;">
+        return `
+        <div class="card" style="width: 18rem;">
         <div class="card-body">
         <h5 class="card-title">${manager.getName()}</h5>
         <p class="card-text"><i class="fas fa-mug-hot"></i> Manager</p>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${manager.getId()}</li>
-            <li class="list-group-item"><a href="mailto:${manager.getEmail()}">${manager.getEmail()}><i class="fas fa-envelope-square"></i> Email: </li></a>
-            <li class="list-group-item"><i class="far fa-building"></i> Office Number: ${manager.getOfficeNumber()}</li>
+            <li class="list-group-item"> ID: ${manager.getId()} </li>
+            <li class="list-group-item">Email: <br> <a href="mailto:${manager.getEmail()}"> ${manager.getEmail()} <i class="fas fa-envelope-square"></i></li></a>
+            <li class="list-group-item">Office Number: <br> ${manager.getOfficeNumber()} <i class="far fa-building"></i> </li>
         </ul>
     </div>
     `;
     };
     const generateEngineer = (engineer) => {
-        return `<div class="card" style="width: 18rem;">
+        return `
+        <div class="card" style="width: 18rem;">
         <div class="card-body">
         <h5 class="card-title">${engineer.getName()}</h5>
         <p class="card-text"><i class="fas fa-glasses mr-2"></i> Engineer</p>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${engineer.getId()}</li>
-            <li class="list-group-item"><a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}><i class="fas fa-envelope-square"></i> Email: </li></a>
-            <li class="list-group-item"><a href="github.com/${engineer.getGithub()}" class="card-link" ><i class="fab fa-github"></i> Github: ${engineer.getGithub()} </li></a> 
+            <li class="list-group-item"> ID: ${engineer.getId()} </li>
+            <li class="list-group-item">Email: <br> <a href="mailto:${engineer.getEmail()}"> ${engineer.getEmail()} <i class="fas fa-envelope-square"></i> </li></a>
+            <li class="list-group-item">Github: <br> <a href= "https://github.com/${engineer.getGithub()}" class="card-link"> ${engineer.getGithub()} <i class="fab fa-github"></i> </li></a> 
         </ul>
     </div>
     `;
@@ -36,9 +38,9 @@ const generateTeam = (team) => {
         <p class="card-text"><i class="fas fa-user-graduate mr-2"></i> Intern</p>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${intern.getId()}</li>
-            <li class="list-group-item"><a href="mailto:${intern.getEmail()}">${intern.getEmail()}></<i class="fas fa-envelope-square"></i> Email: li></a>
-            <li class="list-group-item"><i class="fas fa-graduation-cap"></i> School: ${intern.getSchool()}</li>
+            <li class="list-group-item"> ID: ${intern.getId()} </li>
+            <li class="list-group-item">Email: <br> <a href="mailto:${intern.getEmail()}">${intern.getEmail()} <i class="fas fa-envelope-square"></i><li></a>
+            <li class="list-group-item">School: <br> ${intern.getSchool()} <i class="fas fa-graduation-cap"></i> </li>
         </ul>
     </div>
     `;
