@@ -12,7 +12,8 @@ const generateTeam = (team) => {
             <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${manager.email}">${manager.email}</a></li>
             <li class="list-group-item"><i class="far fa-building"></i> Office Number:${manager.officeNumber}</li>
         </ul>
-    </div>`;
+    </div>
+    `;
     };
     const generateEngineer = (engineer) => {
         return `<div class="card" style="width: 18rem;">
@@ -22,10 +23,11 @@ const generateTeam = (team) => {
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${engineer.id}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${engineer.email}">${intern.email}</a></li>
+            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${engineer.email}">${engineer.email}</a></li>
             <li class="list-group-item"><i class="fab fa-github"></i> Github: ${engineer.github} <a href="www.github.com/${engineer.github}" class="card-link"></a></li>
         </ul>
-    </div>`;
+    </div>
+    `;
     };
     const generateIntern = (intern) => {
         return `<div class="card" style="width: 18rem;">
@@ -38,22 +40,43 @@ const generateTeam = (team) => {
             <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${intern.email}">${intern.email}</a></li>
             <li class="list-group-item"><i class="fas fa-graduation-cap"></i> School: ${intern.school}</li>
         </ul>
-    </div>`;
+    </div>
+    `;
     };
     // Joins array data into ONE string
 
     const htmlArr =[];
 
-
+    // TEST:
     // const htmlArr = [generateManager(team[0]), 
     // generateEngineer(team[1]), 
     // generateIntern(team[2])];
 
     htmlArr
-    .push(team.filter(employee => employee.role ==='manager'))
-    .map((manager) => generateManager(manager));
+    .push(
+        team
+            .filter(employee => employee.role ==="manager")
+            .map((manager) => generateManager(manager))
+            .join("")
+    );
 
-return htmlArr.join("");
+    htmlArr
+    .push(
+        team
+            .filter(employee => employee.role ==="engineer")
+            .map((engineer) => generateEngineer(engineer))
+            .join("")
+    );
+
+    htmlArr
+    .push(
+        team
+            .filter(employee => employee.role ==="intern")
+            .map((intern) => generateIntern(intern))
+            .join("")
+    );
+
+    return htmlArr.join("");
 };
 
 module.exports = (team) => {
@@ -93,5 +116,6 @@ module.exports = (team) => {
 </section>
 
 </body>
-</html>`;
+</html>
+`;
 }

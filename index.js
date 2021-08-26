@@ -1,4 +1,11 @@
 const render = require('./src/pagetemplate.js');
+const fs = require("fs");
+const path = require("path");
+
+// Output Directory
+const OUTPUT_DIR =  path.resolve(__dirname, "dist");
+const outputPath = path.join(OUTPUT_DIR, "index.html");
+
 const team = [
     {
         name: "hannah",
@@ -19,4 +26,8 @@ const team = [
         role: "intern",
     },
 ];
-console.log(render());
+
+// Builds HTML file 
+fs.writeFileSync(outputPath, render(team), "utf-8");
+
+// TEST: console.log(render(team));
