@@ -1,4 +1,5 @@
-# **TeamBuilder**
+<span style="font-size:larger;"> TeamBuilder 🏗️ </span>
+
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Description
