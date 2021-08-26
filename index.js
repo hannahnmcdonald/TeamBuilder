@@ -285,12 +285,12 @@ function init() {
         fs.writeFileSync(outputPath, render(team), "utf-8");
     };
 
-    
+    // Begins the questionaire at the createManager() Fx which will cascade into the other functions
     createManager();
 
 };
 
-
+// Initializes starting Fx
 init();
 
 // TEST:
