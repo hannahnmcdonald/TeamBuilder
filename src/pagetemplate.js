@@ -4,13 +4,13 @@ const generateTeam = (team) => {
     const generateManager = (manager) => {
         return `<div class="card" style="width: 18rem;">
         <div class="card-body">
-        <h5 class="card-title">${manager.name}</h5>
+        <h5 class="card-title">${manager.getName()}</h5>
         <p class="card-text"><i class="fas fa-mug-hot"></i> Manager</p>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${manager.id}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${manager.email}">${manager.email}</a></li>
-            <li class="list-group-item"><i class="far fa-building"></i> Office Number:${manager.officeNumber}</li>
+            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${manager.getId()}</li>
+            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
+            <li class="list-group-item"><i class="far fa-building"></i> Office Number: ${manager.getOfficeNumber()}</li>
         </ul>
     </div>
     `;
@@ -18,13 +18,13 @@ const generateTeam = (team) => {
     const generateEngineer = (engineer) => {
         return `<div class="card" style="width: 18rem;">
         <div class="card-body">
-        <h5 class="card-title">${engineer.name}</h5>
+        <h5 class="card-title">${engineer.getName()}</h5>
         <p class="card-text"><i class="fas fa-glasses mr-2"></i> Engineer</p>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${engineer.id}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${engineer.email}">${engineer.email}</a></li>
-            <li class="list-group-item"><i class="fab fa-github"></i> Github: ${engineer.github} <a href="www.github.com/${engineer.github}" class="card-link"></a></li>
+            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${engineer.getId()}</li>
+            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
+            <li class="list-group-item"><i class="fab fa-github"></i> Github: ${engineer.getGithub()} <a href="www.github.com/${engineer.getGithub()}" class="card-link"></a></li>
         </ul>
     </div>
     `;
@@ -32,13 +32,13 @@ const generateTeam = (team) => {
     const generateIntern = (intern) => {
         return `<div class="card" style="width: 18rem;">
         <div class="card-body">
-        <h5 class="card-title">${intern.name}</h5>
+        <h5 class="card-title">${intern.getName()}</h5>
         <p class="card-text"><i class="fas fa-user-graduate mr-2"></i> Intern</p>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${intern.id}</li>
-            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email" <a href="mailto:${intern.email}">${intern.email}</a></li>
-            <li class="list-group-item"><i class="fas fa-graduation-cap"></i> School: ${intern.school}</li>
+            <li class="list-group-item"><i class="fas fa-id-card"></i> ID: ${intern.getId()}</li>
+            <li class="list-group-item"><i class="fas fa-envelope-square"></i> Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+            <li class="list-group-item"><i class="fas fa-graduation-cap"></i> School: ${intern.getSchool()}</li>
         </ul>
     </div>
     `;
@@ -55,7 +55,7 @@ const generateTeam = (team) => {
     htmlArr
     .push(
         team
-            .filter(employee => employee.role ==="manager")
+            .filter(employee => employee.getRole() === "Manager")
             .map((manager) => generateManager(manager))
             .join("")
     );
@@ -63,7 +63,7 @@ const generateTeam = (team) => {
     htmlArr
     .push(
         team
-            .filter(employee => employee.role ==="engineer")
+            .filter(employee => employee.getRole() === "Engineer")
             .map((engineer) => generateEngineer(engineer))
             .join("")
     );
@@ -71,7 +71,7 @@ const generateTeam = (team) => {
     htmlArr
     .push(
         team
-            .filter(employee => employee.role ==="intern")
+            .filter(employee => employee.getRole() === "Intern")
             .map((intern) => generateIntern(intern))
             .join("")
     );
