@@ -64,7 +64,7 @@ Command line example:
 
 🎥
 
-![VideoWalkthrough](./img/gif.gif)
+![VideoWalkthrough](./img/gif2.gif)
 
 ▶️ Watch the full length demo [here](https://drive.google.com/file/d/12LQ8W5aW2Fg3p5Lay4CU4FChb1jzC6bt/view)
 
