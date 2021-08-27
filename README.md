@@ -69,7 +69,7 @@ Command line example:
 
 ![VideoWalkthrough](./img/gif2.gif)
 
-▶️ Watch the full length demo [here](https://drive.google.com/file/d/1KvqUSWf2KBRiswcLh8CHwQ4OzBCCUslF/view)
+▶️ Watch the full length demo [here](https://drive.google.com/file/d/1QjAthulQRg9awWA7rnRIeqgy8wndP51Y/view?usp=sharing)
 
 
 ## Installation
