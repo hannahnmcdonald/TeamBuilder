@@ -43,10 +43,11 @@ THEN I exit the application, and the HTML is generated
 2. [Video](##Video)
 3. [Installation](##Installation)
 4. [Usage](##Usage)
-5. [Technologies](##Technologies)
-6. [License](##License)
-7. [Contributing](##Contributing)
-8. [Questions](##Questions)
+5. [Testing](##Testing)
+6. [Technologies](##Technologies)
+7. [License](##License)
+8. [Contributing](##Contributing)
+9. [Questions](##Questions)
 
 
 ## Screenshot
@@ -83,6 +84,13 @@ node index.js
 ```
 After this command is run, you will be given a serious of questions to which you will answer and press enter. After all questions are answered, your team will be generated as a HTML page in the current directory.
 
+## Testing
+
+To run tests, run the following commands in the correct directory of your command line
+```
+npm test
+```
+
 
 ## Technologies
 
@@ -101,11 +109,11 @@ This repository is under the MIT License.
 
 ## Contributing
 
-* Fork the repo from Github
-* Clone the repo locally
-* Commit your changes
-* Push to your branch
-* Open a Pull request for review
+1. Fork the repo from Github
+2. Clone the repo locally
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull request for review
 
 ## Questions?
 
