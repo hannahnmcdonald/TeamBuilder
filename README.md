@@ -1,12 +1,12 @@
-# TeamBuilder🏗️
+# TeamBuilder
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Description
+## Description
 A simple command line application using npm inquirer & jest.js to create a HTML webpage that displays each team member, their role, and their contact information.
 
 
-# User Story 📖
+## User Story
 
 ```
 AS A manager
@@ -14,7 +14,7 @@ I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 ```
 
-# Acceptance Criteria ✔️ 
+## Acceptance Criteria 
 
 ```
 GIVEN a command-line application that accepts user input
@@ -38,18 +38,18 @@ THEN I exit the application, and the HTML is generated
 ```
 
 
-# Table of Contents
-1. [Screenshot](#Screenshot)
-2. [Video](#Video)
-3. [Installation](#Installation)
-4. [Usage](#Usage)
-5. [Technologies](#Technologies)
-6. [License](#License)
-7. [Contributing](#Contributing)
-8. [Questions](#Questions)
+## Table of Contents
+1. [Screenshot](##Screenshot)
+2. [Video](##Video)
+3. [Installation](##Installation)
+4. [Usage](##Usage)
+5. [Technologies](##Technologies)
+6. [License](##License)
+7. [Contributing](##Contributing)
+8. [Questions](##Questions)
 
 
-# Screenshot 📸
+## Screenshot
 
 Example of generated HTML: 
 
@@ -59,14 +59,14 @@ Command line example:
 
 ![Screenshot2](./img/screenshot2.png)
 
-# Video 🎥
+## Video
 
-![VideoWalkthrough]()
+🎥![VideoWalkthrough]()
 
 ▶️ Watch the full length demo [here]()
 
 
-# Installation 🛠
+## Installation
 
 To install this application and all corresponding dependencies:
 ```
@@ -75,7 +75,7 @@ cd TeamBuilder
 npm install     
 ```
 
-# Usage ⚙️
+## Usage
 
 The application will be invoked by using the following command:
 ```
@@ -84,7 +84,7 @@ node index.js
 After this command is run, you will be given a serious of questions to which you will answer and press enter. After all questions are answered, your team will be generated as a HTML page in the current directory.
 
 
-# Technologies 💻
+## Technologies
 
 * Node.js
 * npm inquirer
@@ -93,13 +93,13 @@ After this command is run, you will be given a serious of questions to which you
 * Bootstrap
 
 
-# License 🧾
+## License
 
 This repository is under the MIT License.
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Contributing 👩🏽‍💻
+## Contributing
 
 * Fork the repo from Github
 * Clone the repo locally
@@ -107,7 +107,7 @@ This repository is under the MIT License.
 * Push to your branch
 * Open a Pull request for review
 
-# Questions ❔
+## Questions?
 
 Contact me at hannahcodes@protonmail.com 📫
 
