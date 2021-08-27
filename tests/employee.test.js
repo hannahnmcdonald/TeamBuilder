@@ -26,3 +26,4 @@ test("Can getName() retrieve the name inputed?", () => {
     const e = new Employee("Hannah", 1, "hannah@hannah.com");
     expect(e.getName()).toBe(testValue);
 });
+
