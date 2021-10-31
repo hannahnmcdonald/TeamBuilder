@@ -1,6 +1,7 @@
 # TeamBuilder
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+/jenkins/tests?compact_message&failed_label=failed&jobUrl=https%3A%2F%2Fjenkins.sqlalchemy.org%2Fjob%2Falembic_gerrit&passed_label=passed&skipped_label=skipped
 
 ## Description
 A simple command line application using npm inquirer & jest.js to create a HTML webpage that displays each team member, their role, and their contact information.
